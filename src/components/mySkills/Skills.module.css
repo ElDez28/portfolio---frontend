@@ -19,7 +19,7 @@
 }
 .skillsWrapper {
   max-width: 100%;
-  height: 100vh;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -98,5 +98,14 @@
     max-width: 60%;
     border-radius: 50%;
     margin-top: -300em;
+  }
+}
+
+@media (max-width: 480px) {
+  .skillsRight p {
+    font-size: 1.8rem;
+  }
+  .skillsRight span {
+    font-size: 1.8rem;
   }
 }

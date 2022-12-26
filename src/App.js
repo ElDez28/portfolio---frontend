@@ -3,9 +3,16 @@ import Skills from "./components/mySkills/Skills";
 import Sidebar from "./components/sidebar/Sidebar";
 import MyProjects from "./components/myProjects/MyProjects";
 import Feedback from "./components/Feedback/Feedback";
-import { useState, useRef, useEffect, useMemo, useCallback } from "react";
+import { useState, useCallback } from "react";
 import Contact from "./components/Contact/Contact";
 
+window.addEventListener("load", function () {
+  var viewport = document.querySelector("meta[name=viewport]");
+  viewport.setAttribute(
+    "content",
+    viewport.content + ", height=" + window.innerHeight
+  );
+});
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [skillVis, setSkillVis] = useState(false);

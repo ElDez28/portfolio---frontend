@@ -5,6 +5,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneForwardedIcon from "@mui/icons-material/PhoneForwarded";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 function Contact() {
   return (
     <div id="contact" className={styles.contact}>
@@ -45,8 +46,9 @@ function Contact() {
           <LinkedInIcon className={styles.icon}></LinkedInIcon>
         </div>
         <div className={styles.iconWrap}>
-          <EmailIcon className={styles.icon}></EmailIcon>
-          <p>dezmic91@gmail.com</p>
+          <a href="mailto: dezmic91@gmail.com">
+            <EmailIcon className={styles.icon}></EmailIcon>
+          </a>
         </div>
         <div
           onClick={() => {
@@ -60,9 +62,9 @@ function Contact() {
           <TwitterIcon className={styles.icon}></TwitterIcon>
         </div>
         <div className={styles.iconWrap}>
-          <PhoneForwardedIcon className={styles.icon}></PhoneForwardedIcon>
-
-          <p>064 408 68 63</p>
+          <a href="https://api.whatsapp.com/send?phone=00387644086863">
+            <WhatsAppIcon className={styles.icon}></WhatsAppIcon>
+          </a>
         </div>
       </div>
     </div>

@@ -32,3 +32,6 @@
   flex-direction: column;
   color: white;
 }
+.iconWrap a {
+  color: white;
+}

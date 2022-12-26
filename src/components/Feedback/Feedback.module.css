@@ -12,7 +12,7 @@
 .feedbackWrapper {
   max-width: 100%;
   width: 90%;
-  min-height: 100vh;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -136,7 +136,7 @@
 }
 @media (max-width: 490px) {
   .feedback {
-    height: 90vh;
+    height: 100vh;
   }
   .header {
     margin-top: 2em;

@@ -45,12 +45,14 @@
   font-size: 2.2rem;
   text-decoration: none;
   transition: all 500ms;
+  color: rgba(63, 6, 64, 0.852);
 }
 .link:hover {
   color: var(--secondary-color);
 }
 .navIcon {
   font-size: 6rem !important;
+  color: rgba(63, 6, 64, 0.852);
 }
 .closeIcon {
   font-size: 4rem !important;

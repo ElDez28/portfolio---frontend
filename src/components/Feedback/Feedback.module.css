@@ -136,7 +136,7 @@
 }
 @media (max-width: 490px) {
   .feedback {
-    height: 100vh;
+    height: auto;
   }
   .header {
     margin-top: 2em;

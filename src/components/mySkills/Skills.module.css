@@ -1,7 +1,6 @@
 .skills {
   background: rgb(246, 246, 246);
-  height: 100vh !important;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
 }
 .techImg {
@@ -77,6 +76,7 @@
   }
   .skillsWrapper {
     grid-template-columns: 1fr;
+    gap: 100em;
   }
 
   .skillsRight {
@@ -85,6 +85,7 @@
   }
   .skillsLeft {
     order: 2;
+    margin-bottom: 50em;
   }
 
   .rightWrapper {
@@ -102,6 +103,9 @@
 }
 
 @media (max-width: 480px) {
+  .skills {
+    height: auto;
+  }
   .skillsRight p {
     font-size: 1.8rem;
   }

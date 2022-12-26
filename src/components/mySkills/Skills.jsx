@@ -31,8 +31,8 @@ function Skills({ showNav }) {
               <span className={styles.list}>
                 HTML, CSS, JAVASCRIPT, NODE.JS, MONGODB, REACT.JS AND NEXT.JS.
               </span>
-              Everything I know I learned over courses on Udemy spending over a
-              thousend hours listening, coding and practicing. Now I'm looking
+              Everything I know I learned through courses on Udemy spending over
+              a thousend hours listening, coding and practicing. Now I'm looking
               for new challenges and new opportunities to learn and develope my
               skills.
             </p>

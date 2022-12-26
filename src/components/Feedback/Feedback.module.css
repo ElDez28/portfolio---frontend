@@ -1,6 +1,6 @@
 .feedback {
   height: 100vh;
-  min-height: 100vh;
+
   background-color: rgb(246, 245, 245);
   padding: 3rem 0;
   display: flex;
@@ -136,13 +136,22 @@
 }
 @media (max-width: 490px) {
   .feedback {
-    height: auto;
+    height: 100vh;
   }
   .header {
     margin-top: 2em;
   }
   .allReviews {
     margin-bottom: 2em;
+  }
+  .left input {
+    width: 100%;
+  }
+  .left textarea {
+    width: 100%;
+  }
+  .left button {
+    width: 100%;
   }
 }
 .error {

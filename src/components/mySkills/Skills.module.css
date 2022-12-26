@@ -1,0 +1,101 @@
+.skills {
+  background: rgb(246, 246, 246);
+  height: 100vh !important;
+  display: flex;
+}
+.techImg {
+  min-width: 60%;
+
+  max-width: 60%;
+  object-fit: cover;
+}
+.imgWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.skillsWrapper {
+  max-width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.skillsLeft {
+  max-width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*------- right -----------------*/
+.skillsRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skillsHeader {
+  font-size: 4.8rem;
+  color: rgb(102, 183, 241);
+}
+
+.desc {
+  font-size: 2.4rem;
+  color: rgb(104, 104, 104);
+}
+.rightWrapper {
+  padding: 240em;
+  display: flex;
+  flex-direction: column;
+  gap: 80em;
+}
+.list {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: rgb(102, 181, 241);
+  margin-right: 0.5rem;
+}
+.techImg {
+  border-radius: 90%;
+}
+
+.headerIcon {
+  font-size: 4.8rem !important;
+}
+.header {
+  display: flex;
+  align-items: center;
+  color: rgb(102, 181, 241);
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+  .skillsWrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .skillsRight {
+    order: 1;
+    align-items: flex-end;
+  }
+  .skillsLeft {
+    order: 2;
+  }
+
+  .rightWrapper {
+    text-align: center;
+    padding: 240em 380em 0 380em;
+  }
+  .header {
+    justify-content: center;
+  }
+  .techImg {
+    max-width: 60%;
+    border-radius: 50%;
+    margin-top: -300em;
+  }
+}

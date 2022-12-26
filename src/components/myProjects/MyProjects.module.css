@@ -1,0 +1,74 @@
+.projects {
+  height: 100vh;
+  background: linear-gradient(#295e94df, #3e85b4),
+    url("https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-97395.jpg?size=626&ext=jpg&uid=R51588073&semt=sph");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50em;
+}
+.header h2 {
+  font-size: 4.8rem;
+  margin-bottom: 0.2em;
+}
+.header p {
+  font-size: 1.8rem;
+  color: rgb(255, 251, 244);
+}
+.projectHeader {
+  font-size: 3.2rem;
+  text-align: center;
+  color: white;
+  /* margin-bottom: 2em; */
+  max-width: 100%;
+}
+.projectWrapper {
+  /* padding: 100em; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+}
+.cardsWrapper {
+  max-width: 90%;
+
+  display: flex;
+  padding: 50em;
+  align-items: stretch;
+  justify-content: center;
+
+  margin: 0 auto;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  justify-items: center;
+  gap: 50em;
+  /* flex-wrap: wrap; */
+}
+@media (max-width: 950px) {
+  .cardsWrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  .projectHeader {
+    margin-bottom: 2em;
+  }
+}
+@media (max-width: 590px) {
+  .cardsWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .projects {
+    height: 150vh;
+  }
+  .projectHeader {
+    margin-bottom: 2em;
+  }
+}

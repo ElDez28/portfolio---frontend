@@ -1,0 +1,34 @@
+.contact {
+  background-color: #0d1b2a;
+  padding: 2em;
+  height: 50vh;
+}
+.header {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 1.5em;
+  color: rgb(238, 237, 237);
+  margin-bottom: 2em;
+}
+.contacts {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  font-size: 4.2rem;
+  justify-items: center;
+  color: white;
+  gap: 1.5em;
+}
+.icon {
+  font-size: 6.4rem !important;
+  cursor: pointer;
+}
+
+.iconWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}

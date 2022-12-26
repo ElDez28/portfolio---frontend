@@ -1,0 +1,157 @@
+.feedback {
+  height: 100vh;
+  background-color: rgb(246, 245, 245);
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedbackWrapper {
+  max-width: 100%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.left {
+  font-size: 2.4rem;
+  padding: 2em;
+  /* border: 1px solid rgb(29, 87, 123); */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+  height: 80%;
+}
+
+.right {
+  font-size: 2.4rem;
+  padding: 2em;
+  /* border: 1px solid rgb(29, 87, 123); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+}
+.header {
+  font-size: 4rem;
+  text-align: center;
+  /* margin-top: 1.5em; */
+  color: rgb(78, 77, 77);
+}
+
+.username {
+  width: 80%;
+
+  border: 0.5px solid rgb(206, 206, 206);
+  outline: none;
+  border-radius: 5px;
+  padding: 1em 2em;
+  color: rgb(160, 159, 159);
+}
+.username::placeholder {
+  text-align: center;
+  color: rgb(206, 206, 206);
+}
+.review {
+  width: 80%;
+  height: 60%;
+  outline: none;
+  resize: none;
+  border: 0.5px solid rgb(206, 206, 206);
+  border-radius: 5px;
+  font-size: 2rem;
+  padding: 2em;
+  position: relative;
+  color: rgb(160, 159, 159);
+}
+.review::placeholder {
+  text-align: center;
+  color: rgb(218, 218, 218);
+}
+
+.btn {
+  background-color: rgb(56, 29, 64);
+  width: 80%;
+  border: none;
+  padding: 1em;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.allReviews {
+  background-color: white;
+  width: 100%;
+
+  height: 50rem;
+
+  /* border-radius: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  overflow-y: scroll;
+  padding: 2em;
+  border: 1px solid rgb(231, 230, 230);
+  border-radius: 10px;
+}
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #5467a0 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #5467a0;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+@media (max-width: 768px) {
+  .feedbackWrapper {
+    flex-direction: column;
+  }
+  .left {
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 490px) {
+  .feedback {
+    height: 90vh;
+  }
+  .header {
+    margin-top: 2em;
+  }
+  .allReviews {
+    margin-bottom: 2em;
+  }
+}
+.error {
+  box-shadow: 0 0 0 1px red; /* All the borders by using the spread properties */
+}
+.noReviews {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.4rem;
+  color: rgb(187, 184, 184);
+}

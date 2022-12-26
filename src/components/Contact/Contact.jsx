@@ -62,7 +62,7 @@ function Contact() {
           <TwitterIcon className={styles.icon}></TwitterIcon>
         </div>
         <div className={styles.iconWrap}>
-          <a href="https://api.whatsapp.com/send?phone=00387644086863">
+          <a href="https://api.whatsapp.com/send?phone=387644086863">
             <WhatsAppIcon className={styles.icon}></WhatsAppIcon>
           </a>
         </div>

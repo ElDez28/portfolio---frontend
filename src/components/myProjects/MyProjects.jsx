@@ -31,7 +31,7 @@ function MyProjects() {
             gitHub="https://github.com/ElDez28/SOCIOPS.git"
           ></Card>
           <Card
-            desc={`This is admin dashboard made in React with the help of Material UI. It's a simple frontend page.`}
+            desc={`This is admin dashboard made in React with the help of Material UI. It's a simple frontend project.`}
             url={admin}
             pageLink="https://admin-dashboard-one.netlify.app/"
             gitHub="https://github.com/ElDez28/Admin"

@@ -27,30 +27,22 @@
   font-size: 3.2rem;
   text-align: center;
   color: white;
-  /* margin-bottom: 2em; */
   max-width: 100%;
 }
 .projectWrapper {
-  /* padding: 100em; */
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-between;
   align-items: center;
 }
 .cardsWrapper {
   max-width: 90%;
-
   display: flex;
   padding: 50em;
   align-items: stretch;
   justify-content: center;
-
   margin: 0 auto;
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr; */
   justify-items: center;
   gap: 50em;
-  /* flex-wrap: wrap; */
 }
 @media (max-width: 950px) {
   .cardsWrapper {

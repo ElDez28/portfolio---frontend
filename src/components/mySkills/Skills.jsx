@@ -29,7 +29,8 @@ function Skills({ showNav }) {
             <p className={styles.desc}>
               During my learning process I learned the following:{" "}
               <span className={styles.list}>
-                HTML, CSS, JAVASCRIPT, NODE.JS, MONGODB, REACT.JS AND NEXT.JS.
+                HTML, CSS, TAILWIND CSS, JAVASCRIPT, NODE.JS, MONGODB, REACT.JS
+                AND NEXT.JS.
               </span>
               Everything I know I learned through courses on Udemy spending over
               a thousend hours listening, coding and practicing. Now I'm looking

@@ -33,8 +33,8 @@ function Skills({ showNav }) {
                 AND NEXT.JS.
               </span>
               Everything I know I learned through courses on Udemy spending over
-              a thousend hours listening, coding and practicing. Now I'm looking
-              for new challenges and new opportunities to learn and develope my
+              a thousand hours listening, coding and practicing. Now I'm looking
+              for new challenges and new opportunities to learn and develop my
               skills.
             </p>
           </div>

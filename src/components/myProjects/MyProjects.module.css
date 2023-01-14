@@ -9,6 +9,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  padding: 10rem 0;
 }
 .header {
   width: 100%;
@@ -22,6 +23,9 @@
 .header p {
   font-size: 1.8rem;
   color: rgb(255, 251, 244);
+  max-width: 60%;
+  text-align: center;
+  margin: 0 auto;
 }
 .projectHeader {
   font-size: 3.2rem;
@@ -58,7 +62,7 @@
     flex-direction: column;
   }
   .projects {
-    height: 150vh;
+    height: max-content;
   }
   .projectHeader {
     margin-bottom: 2em;

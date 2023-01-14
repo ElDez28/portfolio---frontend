@@ -35,7 +35,7 @@
 .right {
   font-size: 2.4rem;
   padding: 2em;
-  /* border: 1px solid rgb(29, 87, 123); */
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,6 +48,8 @@
   text-align: center;
   /* margin-top: 1.5em; */
   color: rgb(78, 77, 77);
+
+  margin: 0 auto;
 }
 
 .username {
@@ -149,6 +151,7 @@
   }
   .header {
     margin-top: 1em;
+    max-width: 70%;
   }
   .allReviews {
     margin-bottom: 2em;

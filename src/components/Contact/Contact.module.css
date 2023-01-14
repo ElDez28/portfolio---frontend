@@ -1,7 +1,6 @@
 .contact {
   background-color: #0d1b2a;
-  padding: 2em;
-  height: 50vh;
+  padding: 4em;
 }
 .header {
   font-size: 4rem;
@@ -19,6 +18,7 @@
   justify-items: center;
   color: white;
   gap: 1.5em;
+  margin-bottom: 1.5em;
 }
 .icon {
   font-size: 6.4rem !important;

@@ -35,22 +35,27 @@
 }
 .projectWrapper {
   display: flex;
-  justify-content: space-between;
+  gap: 2em;
   align-items: center;
 }
 .cardsWrapper {
-  max-width: 90%;
+  max-width: 60%;
   display: flex;
   padding: 50em;
   align-items: stretch;
-  justify-content: center;
+  justify-content: end;
   margin: 0 auto;
-  justify-items: center;
-  gap: 50em;
+
+  gap: 100em;
 }
 @media (max-width: 950px) {
   .cardsWrapper {
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+  }
+  .projects {
+    height: max-content;
   }
   .projectHeader {
     margin-bottom: 2em;
@@ -60,6 +65,7 @@
   .cardsWrapper {
     display: flex;
     flex-direction: column;
+    max-width: 90%;
   }
   .projects {
     height: max-content;

@@ -148,6 +148,7 @@
 @media (max-width: 490px) {
   .feedback {
     height: 100vh;
+    padding: 10rem;
   }
   .header {
     margin-top: 1em;

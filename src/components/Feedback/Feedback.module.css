@@ -146,9 +146,12 @@
   }
 }
 @media (max-width: 490px) {
+  .feedbackWrapper {
+    max-width: 100%;
+  }
   .feedback {
-    height: 100vh;
-    padding: 10rem;
+    height: max-content;
+    padding-top: 10em;
   }
   .header {
     margin-top: 1em;

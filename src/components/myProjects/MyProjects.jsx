@@ -21,7 +21,7 @@ function MyProjects() {
             desc={`This is my idea of touristic agency site with tours to most beautifle locations in Bosnia. `}
             url={seesight}
             pageLink="https://seesight-next.vercel.app/"
-            gitHub="https://github.com/ElDez28/SOCIOPS.git"
+            gitHub="https://github.com/ElDez28/Seesight-next"
           ></Card>
 
           <Card

@@ -18,7 +18,7 @@ function MyProjects() {
       <div className={styles.projectWrapper}>
         <div className={styles.cardsWrapper}>
           <Card
-            desc={`This is my idea of touristic agency site with tours to most beautifle locations in Bosnia. `}
+            desc={`This is my idea of touristic agency site with tours to most beautifle locations in Bosnia. This application uses Next.js for frontend and Node.js for backend. `}
             url={seesight}
             pageLink="https://seesight-next.vercel.app/"
             gitHub="https://github.com/ElDez28/Seesight-next"

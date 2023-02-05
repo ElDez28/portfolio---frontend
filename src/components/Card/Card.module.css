@@ -38,7 +38,8 @@
 .buttons {
   display: flex;
   justify-content: space-evenly;
-  padding: 20em;
+  padding: 2rem;
+  gap: 2rem;
   background-color: white;
 }
 .btn {
@@ -50,14 +51,14 @@
   color: #b3080b;
   cursor: pointer;
   border-radius: 5px;
-  max-width: 40%;
-  min-width: 40%;
+
   margin-bottom: 1em;
   transition: all 0.5s;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  flex: 1;
 }
 .btn:active,
 .btn:hover {

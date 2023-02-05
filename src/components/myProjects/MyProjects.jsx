@@ -21,7 +21,8 @@ function MyProjects() {
             desc={`This is my idea of touristic agency site with tours to most beautifle locations in Bosnia. This application uses Next.js for frontend and Node.js for backend. `}
             url={seesight}
             pageLink="https://seesight-next.vercel.app/"
-            gitHub="https://github.com/ElDez28/Seesight-next"
+            gitHub="https://github.com/ElDez28/Sightsee-Travel"
+            two={true}
           ></Card>
 
           <Card

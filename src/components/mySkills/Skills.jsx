@@ -1,5 +1,6 @@
 import styles from "./Skills.module.css";
 import programsNew from "../../images/newPrograms.png";
+
 import ConstructionIcon from "@mui/icons-material/Construction";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
@@ -29,8 +30,8 @@ function Skills({ showNav }) {
             <p className={styles.desc}>
               During my learning process I learned the following:{" "}
               <span className={styles.list}>
-                HTML, CSS, TAILWIND CSS, JAVASCRIPT, NODE.JS, MONGODB, REACT.JS
-                AND NEXT.JS.
+                HTML, CSS, TAILWIND CSS, JAVASCRIPT, NODE.JS, MONGODB, MySQL,
+                REACT.JS AND NEXT.JS.
               </span>
               Everything I know I learned through courses on Udemy spending over
               a thousand hours listening, coding and practicing. Now I'm looking

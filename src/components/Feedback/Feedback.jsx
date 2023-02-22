@@ -27,6 +27,10 @@ function Feedback({ showNav }) {
         const data = await axios({
           method: "get",
           url: process.env.REACT_APP_BACKEND_URL,
+          headers: {
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
+          },
         });
 
         setReviews((prev) => data.data.data);
